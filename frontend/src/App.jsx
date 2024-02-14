@@ -4,10 +4,12 @@ import Listings from './pages/Listings'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route index exact element={<Home />} />
         <Route path='/listings' element={<Listings />} />
