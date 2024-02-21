@@ -11,3 +11,7 @@
   }
 }
 
+.register__img {
+  animation: slide-down 0.5s ease;
+}
+
